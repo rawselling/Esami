@@ -113,8 +113,8 @@ void inserimento(){
 				printf("\n Ci sono %d posti massimo", evento[indicev].posti);
 				main();}	
 			printf("\n\n\n [RICHIESTA ACCETTATA]: prenotazione effettuata con successo ");
-			Y++;
 			evento[indicev].posti=evento[indicev].posti-prenot[Y].posti;
+			Y++;
 			main();
 		break; 
 		case 3: 
